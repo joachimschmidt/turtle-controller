@@ -1,0 +1,28 @@
+name: turtle_controller
+description: Controller app for minecraft turtle
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  zflutter: ^0.0.1+2
+  equatable: ^1.2.6
+  web_socket_channel: ^2.0.0
+  nonce: ^0.1.0
+  tuple: ^1.0.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+
+  uses-material-design: true

@@ -1,0 +1,11 @@
+runtime: custom
+env: flex
+service: default
+network:
+  instance_tag: "websocket-server"
+  session_affinity: true
+  forwarded_ports:
+    - 5757/tcp
+    - 5758/tcp
+automatic_scaling:
+  max_num_instances: 1
